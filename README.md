@@ -12,3 +12,4 @@
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic-2.png)
 
+![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic-3.png)
