@@ -101,7 +101,7 @@ output {
 }
 
 ```
-Смотрим логи
+смотрим логи
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-5.png)
 
@@ -115,20 +115,24 @@ output {
 
 ### Решение
 
-*cоздал дашборды*  
+cоздал дашборды 
 **filebeat setup --dashboards** 
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/filebeat-1.png)
 
-*включил нужные модули*
+включил нужные модули
 **filebeat modules enable system nginx**
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/filebeat-2.png)
 
-*поменял конфиг Logstash "input"*
+поменял конфиг Logstash "input"
 **nano /etc/logstash/conf.d/input.conf**
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/filebeat-3.png)
+
+также поменял конфигурацию в /etc/filebeat/filebeat.yml
+
+![image](https://github.com/Byzgaev-I/ELK/blob/main/filebeat-4.png)
 
 
 
