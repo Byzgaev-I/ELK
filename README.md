@@ -62,7 +62,45 @@
 2) filter (фильтры).   
 3) output (выходные данные).
    
-![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-4.png)
+*input.conf* с содержимым
+
+``` bash
+input {
+  file {
+    path => "/var/log/nginx/access.log"
+    start_position => "beginning"
+  }
+}
+```
+
+
+*filter.conf*
+
+``` bash
+filter {
+    grok {
+      match => { "message" => "%{IPORHOST:remote_ip} - %{DATA:user_name}
+      \[%{HTTPDATE:access_time}\] \"%{WORD:http_method} %{DATA:url}
+      HTTP/%{NUMBER:http_version}\" %{NUMBER:response_code} %{NUMBER:body_sent_bytes}
+      \"%{DATA:referrer}\" \"%{DATA:agent}\"" }
+    }
+    mutate {
+        remove_field => [ "host" ]
+    }
+}
+```
+
+*output.conf*
+
+``` bash
+output {
+    elasticsearch {
+      hosts => "http://localhost:9200"
+      data_stream => "true"
+    }
+}
+
+```
 
 
 
