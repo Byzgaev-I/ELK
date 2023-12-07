@@ -51,6 +51,20 @@
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-2.png)
 
+Чуть помучался с Logstash
+
+
+![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-3.png)
+
+Прописал конфиг.  
+Настройки для логстэша хранятся в каталоге /etc/logstash/conf.d в файлах формата JSON. Для конфигурации используются следующие секции:   
+1) input (входные данные).   
+2) filter (фильтры).   
+3) output (выходные данные).
+   
+![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-4.png)
+
+
 
 
 
