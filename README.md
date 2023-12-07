@@ -44,3 +44,9 @@
 *Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.*
 
 ### Решение
+
+Установил Nginx
+
+![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX.png)
+
+
