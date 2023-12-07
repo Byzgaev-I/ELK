@@ -27,4 +27,6 @@
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Kibana-1.png)
 
+**скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console**
+
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Kibana-2.png)
