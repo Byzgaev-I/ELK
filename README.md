@@ -10,6 +10,8 @@
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic%20-1.png)
 
+Скриншот с командой: 'curl -X GET 'localhost:9200/_cluster/health?pretty'
+
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic-2.png)
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic-3.png)
