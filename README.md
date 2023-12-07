@@ -15,3 +15,12 @@
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic-2.png)
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/Elastic-3.png)
+
+---
+
+### Задание 2. Kibana
+
+Установите и запустите Kibana.
+*Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty*.
+
+---
