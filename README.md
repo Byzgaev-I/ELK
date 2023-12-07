@@ -131,6 +131,7 @@ cоздал дашборды
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/filebeat-3.png)
 
 также поменял конфигурацию в /etc/filebeat/filebeat.yml
+Скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/filebeat-4.png)
 
