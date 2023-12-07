@@ -101,6 +101,10 @@ output {
 }
 
 ```
+Смотрим логи
+
+![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-5.png)
+
 
 
 
