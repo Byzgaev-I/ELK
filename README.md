@@ -49,4 +49,8 @@
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX.png)
 
+![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-2.png)
+
+
+
 
