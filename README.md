@@ -51,7 +51,7 @@
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-2.png)
 
-Чуть помучался с Logstash
+Чуть помучился с Logstash
 
 
 ![image](https://github.com/Byzgaev-I/ELK/blob/main/NGINX-3.png)
